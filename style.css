@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=El+Messiri:wght@400..700&family=Yeseva+One&display=swap');
+body {
+    margin: 0;
+    font-family: "El Messiri", sans-serif;;
+    color: #6C4E31;
+    height: 100vh; 
+background-color: rgb(21, 15, 15);
+}
+
+.header {
+    background-color: #603F26;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    position: fixed; 
+    top: 0; 
+    left: 0;
+    z-index: 1000; 
+}
+
+.logo {
+    margin-right: auto; 
+    background-color: transparent; 
+    border: none; 
+}
+
+.navigation {
+    display: flex;
+    justify-content: flex-end;
+    flex-grow: 1;
+}
+
+.navigation ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.navigation li {
+    list-style-type: none;
+    margin-left: 20px;
+    margin-right: 50px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #FFEAC5;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.navigation a:hover {
+    color: #FFDBB5;
+}
+
+.one {
+    height: 90vh; 
+    margin-top: 100px; 
+    background-image: url('images/1.jpg');
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 0;
+}
+.contone{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contone h1 {
+    font-size: 2.5em;
+    color: #FFDBB5;
+    margin-top: 300px;
+}
+
+.contone h2 {
+    font-size: 1.5em;
+    color: #FFEAC5;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center; 
+    margin-top: 20px; 
+}
+
+button {
+    background-color: #FFDBB5;
+    color: #603F26;
+    border: none;
+    padding: 15px 16px; 
+    font-size: 0.9em; 
+    border-radius: 12px; 
+    width: 200px;
+}
+
+button:hover {
+    background-color: #FFEAC5;
+}
+.achievements{
+    height: 90vh; 
+    background-color: #FFDBB5;
+}
+.achievements h1 {
+    font-size: 2.5em;
+    padding-top: 80px;
+    padding-left: 50px;
+}
+.contwo{
+    position: relative;
+    height: 400px;
+    background-color: #d39e64;
+    margin-top: 40px;
+    opacity: 70%;
+}
+.numbers{
+    position: relative;
+    color: #FFDBB5;
+display: flex;
+font-size:13em ;
+padding: 80px;
+justify-content: space-between;
+opacity: 75%;
+z-index: 1;
+}
+.three{
+   padding-right: 250px;
+}
+.first{
+    padding-left: 50px;
+}
+.ch1 {
+    position: absolute;
+    top: 53%; /* Отрегулируйте по мере необходимости */
+    left: 21%; /* Отрегулируйте по мере необходимости */
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column; /* Выстраиваем элементы в колонку */
+    align-items: flex-start;
+    width: 280px;
+    height: auto; /* Высота будет подстраиваться под содержимое */
+    z-index: 2;
+    padding-left: 0;
+    font-size:1.3em 
+}
+
+.baby1 {
+    display: flex;
+    align-items: center;
+    margin: 0; /* Убираем внешние отступы */
+    padding: 0; /* Убираем внутренние отступы */
+}
+
+.c1 {
+    left: 0%;
+    margin: 0; /* Убираем внешние отступы */
+    padding-right: 10px; /* Убираем внутренние отступы */
+    width: 50px;
+}
+
+.ch1 h3 {
+    color: #180e07;
+    margin: 0; /* Убираем отступ сверху для заголовка */
+}
+
+.ch1 p {
+    color: #180e07;
+    margin-top: 0; /* Убираем отступ сверху для абзаца */
+    padding-top: 10px; /* Добавляем отступ сверху для абзаца, если нужно */
+}
+.ch2 {
+    position: absolute;
+    top: 53%; /* Отрегулируйте по мере необходимости */
+    left: 52%; /* Отрегулируйте по мере необходимости */
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column; /* Выстраиваем элементы в колонку */
+    align-items: flex-start;
+    width: 280px;
+    height: auto; /* Высота будет подстраиваться под содержимое */
+    z-index: 2;
+    padding-left: 0;
+    font-size:1.3em 
+}
+
+.baby2 {
+    display: flex;
+    align-items: center;
+    margin: 0; /* Убираем внешние отступы */
+    padding: 0; /* Убираем внутренние отступы */
+}
+
+.c2 {
+    left: 0%;
+    margin: 0; /* Убираем внешние отступы */
+    padding-right: 10px; /* Убираем внутренние отступы */
+    width: 50px;
+}
+
+.ch2 h3 {
+    color: #180e07;
+    margin: 0; /* Убираем отступ сверху для заголовка */
+}
+
+.ch2 p {
+    color: #180e07;
+    margin-top: 0; /* Убираем отступ сверху для абзаца */
+    padding-top: 10px; /* Добавляем отступ сверху для абзаца, если нужно */
+}
+.ch3 {
+    position: absolute;
+    top: 53%; /* Отрегулируйте по мере необходимости */
+    left: 84%; /* Отрегулируйте по мере необходимости */
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column; /* Выстраиваем элементы в колонку */
+    align-items: flex-start;
+    width: 280px;
+    height: auto; /* Высота будет подстраиваться под содержимое */
+    z-index: 2;
+    padding-left: 0;
+    font-size:1.3em 
+}
+
+.baby3 {
+    display: flex;
+    align-items: center;
+    margin: 0; /* Убираем внешние отступы */
+    padding: 0; /* Убираем внутренние отступы */
+}
+
+.c3 {
+    left: 0%;
+    margin: 0; /* Убираем внешние отступы */
+    padding-right: 10px; /* Убираем внутренние отступы */
+    width: 50px;
+}
+
+.ch3 h3 {
+    color: #180e07;
+    margin: 0; /* Убираем отступ сверху для заголовка */
+}
+
+.ch3 p {
+    color: #180e07;
+    margin-top: 0; /* Убираем отступ сверху для абзаца */
+    padding-top: 10px; /* Добавляем отступ сверху для абзаца, если нужно */
+}
